@@ -6,7 +6,7 @@ Chen Henry Wu, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, Aditi Raghunatha
 Carnegie Mellon University <br>
 _Preprint, Jun 2024_ <br>
 
-[**[Paper link]**](todo) | [**[Website]**](https://chenwu.io/attack-agent/) | [**[Data]**](./data/)
+[**[Paper link]**](https://arxiv.org/abs/2406.12814) | [**[Website]**](https://chenwu.io/attack-agent/) | [**[Data]**](./data/)
 
 <br>
 <div align=center>
@@ -348,7 +348,7 @@ If you find this code useful, please consider citing our paper:
 @article{wu2024agentattack,
   title={Adversarial Attacks on Multimodal Agents},
   author={Wu, Chen Henry and Koh, Jing Yu and Salakhutdinov, Ruslan and Fried, Daniel and Raghunathan, Aditi},
-  journal={arXiv preprint arXiv:todo},
+  journal={arXiv preprint arXiv:2406.12814},
   year={2024}
 }
 ```
