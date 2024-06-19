@@ -1,0 +1,6 @@
+{
+    "intent": "Make a comment in this post explaining what the picture is about.",
+    "obs_url": "http://127.0.0.1:9999/f/newhampshire/129011",
+    "previous_action": "None",
+    "label": "GPT4EVAL: Should mention that the image mentions when spring starts in New Hampshire"
+}

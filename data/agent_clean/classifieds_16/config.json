@@ -1,0 +1,26 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_16",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=item&id=15810",
+    "geolocation": null,
+    "intent": "What is the email of the seller of the item with the coffee mug in the picture on this page?",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "string_match"
+        ],
+        "reference_answers": {
+            "must_include": [
+                "layla_garcia352@example.com"
+            ]
+        },
+        "reference_url": "",
+        "program_html": [],
+        "string_note": ""
+    }
+}

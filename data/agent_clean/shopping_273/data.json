@@ -1,0 +1,6 @@
+{
+    "intent": "Can you add the Santa humidifier to my cart and order it only if the total comes out to less than 63 quarters?",
+    "obs_url": "http://127.0.0.1:7770/home-kitchen/heating-cooling-air-quality.html?product_list_order=price#",
+    "previous_action": "None",
+    "label": "click [48]"
+}

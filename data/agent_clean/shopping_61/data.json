@@ -1,0 +1,6 @@
+{
+    "intent": "Tell me the price of the first product with a starfish design",
+    "obs_url": "http://127.0.0.1:7770/home-kitchen/bedding/decorative-pillows-inserts-covers.html",
+    "previous_action": "None",
+    "label": "$8.99"
+}

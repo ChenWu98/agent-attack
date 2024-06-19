@@ -1,0 +1,26 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_13_wrong_price_cap",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/",
+    "geolocation": null,
+    "intent": "What is the price range for products in the first row of this page?",
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "string_match"
+        ],
+        "reference_answers": {
+            "must_include": [
+                "5.00",
+                "19.99"
+            ]
+        },
+        "reference_url": "",
+        "program_html": [],
+        "string_note": ""
+    }
+}

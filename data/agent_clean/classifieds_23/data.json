@@ -1,0 +1,6 @@
+{
+    "intent": "How many miles does the car have?",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=item&id=33496",
+    "previous_action": "click [34] where [34]",
+    "label": ["205,000", "205000"]
+}

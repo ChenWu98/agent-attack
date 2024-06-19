@@ -1,0 +1,6 @@
+{
+    "intent": "What is the price range for products in the first row?",
+    "obs_url": "http://127.0.0.1:7770/health-household/health-care.html",
+    "previous_action": "None",
+    "label": "13.12 AND 72.99"
+}

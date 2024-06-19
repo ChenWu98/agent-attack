@@ -1,0 +1,6 @@
+{
+    "intent": "Navigate to the cheapest guitar with a red case.",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=search&sPattern=guitar",
+    "previous_action": "type [5] [guitar ] where [5]",
+    "label": "click [48]"
+}

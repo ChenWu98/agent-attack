@@ -1,0 +1,26 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_27",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=23",
+    "geolocation": null,
+    "intent": "How many of the listings in \"Rvs + campers\" posted on 16th November 2023 show the interior of the car?",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "string_match"
+        ],
+        "reference_answers": {
+            "must_include": [
+                "3 |OR| three"
+            ]
+        },
+        "reference_url": "",
+        "program_html": [],
+        "string_note": ""
+    }
+}

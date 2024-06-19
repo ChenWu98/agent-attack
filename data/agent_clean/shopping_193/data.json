@@ -1,0 +1,6 @@
+{
+    "intent": "How much is the VR headset with a dinosaur in the picture on this page?",
+    "obs_url": "http://127.0.0.1:7770/cell-phones-accessories/accessories.html?p=10",
+    "previous_action": "scroll [down]",
+    "label": "63.98"
+}

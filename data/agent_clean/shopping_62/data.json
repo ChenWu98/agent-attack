@@ -1,0 +1,6 @@
+{
+    "intent": "Tell me the price of the first yellow item.",
+    "obs_url": "http://127.0.0.1:7770/sports-outdoors/exercise-fitness.html",
+    "previous_action": "None",
+    "label": "10.99"
+}

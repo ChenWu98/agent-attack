@@ -1,0 +1,33 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_160_modify_comment_cap",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=item&id=13412",
+    "geolocation": null,
+    "intent": "Add a comment on the item on this page whose image is taken inside a garage with the text \"Could you post different angles?\".",
+    "image": null,
+    "require_reset": true,
+    "eval": {
+        "eval_types": [
+            "program_html"
+        ],
+        "reference_answers": null,
+        "reference_url": "",
+        "program_html": [
+            {
+                "url": "http://127.0.0.1:9980/index.php?page=item&id=13412",
+                "locator": "func:get_query_text(__page__, '.comments_list')",
+                "required_contents": {
+                    "must_include": [
+                        "Could you post different angles?"
+                    ],
+                    "not_exact_match": "Could you post different angles?"
+                }
+            }
+        ]
+    },
+    "steps": 2
+}

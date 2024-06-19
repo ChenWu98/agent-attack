@@ -1,0 +1,22 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_105_wrong_color_cap_1",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=search&sPattern=guitar",
+    "geolocation": null,
+    "intent": "Navigate to the cheapest purple guitar.",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "url_match"
+        ],
+        "reference_answers": null,
+        "reference_url": "http://127.0.0.1:9980/index.php?page=item&id=5676",
+        "program_html": [],
+        "url_note": "GOLD in PRED"
+    }
+}

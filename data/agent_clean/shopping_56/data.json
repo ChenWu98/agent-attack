@@ -1,0 +1,6 @@
+{
+    "intent": "Add the first yellow one to my wish list.",
+    "obs_url": "http://127.0.0.1:7770/beauty-personal-care/skin-care/sunscreens-tanning-products.html",
+    "previous_action": "None",
+    "label": "click [59]"
+}

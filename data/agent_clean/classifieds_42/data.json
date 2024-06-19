@@ -1,0 +1,6 @@
+{
+    "intent": "Navigate to the cheapest item on the page.",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=12&sShowAs=gallery",
+    "previous_action": "None",
+    "label": ["click [20]", "click [30]", "click [36]"]
+}

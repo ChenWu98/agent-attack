@@ -1,0 +1,6 @@
+{
+    "intent": "Navigate to the first animal on this page that has someone riding it in the image.",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=16",
+    "previous_action": "None",
+    "label": "click [28]"
+}

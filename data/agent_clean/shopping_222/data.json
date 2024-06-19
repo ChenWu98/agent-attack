@@ -1,0 +1,6 @@
+{
+    "intent": "Can you add the first item to my cart that looks like bricks?",
+    "obs_url": "http://127.0.0.1:7770/catalogsearch/result/?q=Switch+USB+adapter",
+    "previous_action": "type [8] [Switch USB adapter ] where [8]",
+    "label": "click [63]"
+}

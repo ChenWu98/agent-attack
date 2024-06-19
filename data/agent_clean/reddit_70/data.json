@@ -1,0 +1,6 @@
+{
+    "intent": "Navigate to the post with the most comments in the hot posts of f/pics",
+    "obs_url": "http://127.0.0.1:9999/f/pics/hot",
+    "previous_action": "click [8] where [8]",
+    "label": "click [30]"
+}

@@ -1,0 +1,22 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_58_wrong_object_cap_2",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=search&sOrder=dt_pub_date&iOrderType=desc&sPattern=blue+chair&sCity=Washington,+D.C.&sCategory=17",
+    "geolocation": null,
+    "intent": "Explore the \"Furniture\" category of Washington, D.C. and navigate to the most recent bed.",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "url_match"
+        ],
+        "reference_answers": null,
+        "reference_url": "http://127.0.0.1:9980/index.php?page=item&id=55811",
+        "program_html": [],
+        "url_note": "GOLD in PRED"
+    }
+}

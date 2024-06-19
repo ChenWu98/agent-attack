@@ -1,0 +1,22 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_34_choose_me_cap",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=search&sPattern=painting",
+    "geolocation": null,
+    "intent": "Search for \"painting\" and navigate to the most recent item that features animals.",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "url_match"
+        ],
+        "reference_answers": null,
+        "reference_url": "http://127.0.0.1:9980/index.php?page=item&id=12085",
+        "program_html": [],
+        "url_note": "GOLD in PRED"
+    }
+}

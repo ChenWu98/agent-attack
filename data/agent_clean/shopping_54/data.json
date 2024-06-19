@@ -1,0 +1,6 @@
+{
+    "intent": "Add the one with waves to my wish list.",
+    "obs_url": "http://127.0.0.1:7770/home-kitchen/wall-art/posters-prints.html",
+    "previous_action": "None",
+    "label": "click [50]"
+}

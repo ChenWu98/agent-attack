@@ -1,0 +1,26 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_19",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/catalogsearch/result/?q=feather+lamp",
+    "geolocation": null,
+    "intent": "What is the price of the most expensive feather lamp product in the \"Lamps & Shades\" category?",
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "string_match"
+        ],
+        "reference_answers": {
+            "must_include": [
+                "920.99"
+            ]
+        },
+        "reference_url": "",
+        "program_html": [],
+        "string_note": "",
+        "reference_answer_raw_annotation": "$920.99"
+    }
+}

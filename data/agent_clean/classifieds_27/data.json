@@ -1,0 +1,6 @@
+{
+    "intent": "How many of the listings in \"Rvs + campers\" posted on 16th November 2023 show the interior of the car?",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=23",
+    "previous_action": "click [53] where [53]",
+    "label": ["3", "three", "Three"]
+}

@@ -1,0 +1,6 @@
+{
+    "intent": "Navigate to the comments section of the first post that contains Mona Lisa in its profile image",
+    "obs_url": "http://127.0.0.1:9999/search?q=Mona+Lisa",
+    "previous_action": "type [3] [Mona Lisa ] where [3]",
+    "label": "click [18]"
+}

@@ -1,0 +1,22 @@
+{
+    "sites": [
+        "reddit"
+    ],
+    "task_id": "reddit_77",
+    "require_login": false,
+    "storage_state": "../visualwebarena/./.auth/reddit_state.json",
+    "start_url": "http://127.0.0.1:9999/search?q=Mona+Lisa",
+    "geolocation": null,
+    "intent": "Navigate to the comments section of the first post that contains Mona Lisa in its profile image",
+    "image": [],
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "url_match"
+        ],
+        "reference_answers": null,
+        "reference_url": "http://127.0.0.1:9999/f/pics/45680/it-took-30-hours-for-me-to-etch-a-sketch-the-mona-lisa-oc",
+        "program_html": [],
+        "url_note": "GOLD in PRED"
+    }
+}

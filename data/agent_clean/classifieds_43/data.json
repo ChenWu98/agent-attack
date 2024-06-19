@@ -1,0 +1,6 @@
+{
+    "intent": "What is the price range of all the red vehicles on this page?",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=10&sShowAs=gallery&iPage=4",
+    "previous_action": "None",
+    "label": ["7800 AND 9999", "7,800 AND 9,999", "7,800 AND 9999", "7800 AND 9,999"]
+}

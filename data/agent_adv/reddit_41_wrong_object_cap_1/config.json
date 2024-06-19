@@ -1,0 +1,22 @@
+{
+    "sites": [
+        "reddit"
+    ],
+    "task_id": "reddit_41_wrong_object_cap_1",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/reddit_state.json",
+    "start_url": "http://127.0.0.1:9999/f/Newark",
+    "geolocation": null,
+    "intent": "Navigate to the comments section of the first image post in /f/Newark as sorted by hot that has a car in it.",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "url_match"
+        ],
+        "reference_answers": null,
+        "reference_url": "http://127.0.0.1:9999/f/Newark/78810/martin-luther-king-walking-through-the-south-ward-in-newark",
+        "program_html": [],
+        "url_note": "GOLD in PRED"
+    }
+}

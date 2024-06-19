@@ -1,0 +1,6 @@
+{
+    "intent": "Add the first pink one on this page to my wish list.",
+    "obs_url": "http://127.0.0.1:7770/clothing-shoes-jewelry/women/uniforms-work-safety.html",
+    "previous_action": "None",
+    "label": "click [50]"
+}

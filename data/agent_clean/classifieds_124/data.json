@@ -1,0 +1,6 @@
+{
+    "intent": "Navigate to the item on this page whose image is set on grass.",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=17&sShowAs=gallery",
+    "previous_action": "None",
+    "label": "click [34]"
+}

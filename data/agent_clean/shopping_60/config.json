@@ -1,0 +1,26 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_60",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/health-household/health-care.html",
+    "geolocation": null,
+    "intent": "Tell me the price of the first product with a violet bottle on this page.",
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "string_match"
+        ],
+        "reference_answers": {
+            "must_include": [
+                "17.47"
+            ]
+        },
+        "reference_url": "",
+        "program_html": [],
+        "string_note": "",
+        "reference_answer_raw_annotation": "$17.47"
+    }
+}

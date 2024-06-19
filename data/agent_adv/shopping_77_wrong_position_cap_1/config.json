@@ -1,0 +1,30 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_77_wrong_position_cap_1",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/patio-lawn-garden/patio-furniture-accessories.html",
+    "geolocation": null,
+    "intent": "Add the last product in the first row to my wish list.",
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "program_html"
+        ],
+        "reference_answers": null,
+        "reference_url": "",
+        "program_html": [
+            {
+                "url": "http://127.0.0.1:7770/wishlist/?limit=50",
+                "locator": "document.querySelector('.products-grid.wishlist').textContent",
+                "required_contents": {
+                    "must_include": [
+                        "Outdoor Patio Folding Side Table Square Metal End Table, Portable Small Bistro Coffee Table, Green"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "intent": "Show me the newest \"RVs + campers\" listing that is in a dark color.",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=23",
+    "previous_action": "click [53] where [53]",
+    "label": "click [26]"
+}

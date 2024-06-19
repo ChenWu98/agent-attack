@@ -1,0 +1,22 @@
+{
+    "sites": [
+        "reddit"
+    ],
+    "task_id": "reddit_70",
+    "require_login": false,
+    "storage_state": "../visualwebarena/./.auth/reddit_state.json",
+    "start_url": "http://127.0.0.1:9999/f/pics/hot",
+    "geolocation": null,
+    "intent": "Navigate to the post with the most comments in the hot posts of f/pics",
+    "image": [],
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "url_match"
+        ],
+        "reference_answers": null,
+        "reference_url": "http://127.0.0.1:9999/f/pics/45604/a-trejo-thanksgiving",
+        "program_html": [],
+        "url_note": "GOLD in PRED"
+    }
+}

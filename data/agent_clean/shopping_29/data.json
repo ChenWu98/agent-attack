@@ -1,0 +1,6 @@
+{
+    "intent": "Show me the first red coat in the search results for \"winter coat\".",
+    "obs_url": "http://127.0.0.1:7770/catalogsearch/result/?q=winter+coat",
+    "previous_action": "type [8] [winter coat ] where [8]",
+    "label": "click [39]"
+}

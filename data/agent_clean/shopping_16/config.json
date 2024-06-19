@@ -1,0 +1,27 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_16",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/office-products/office-electronics/printers-accessories.html?p=3",
+    "geolocation": null,
+    "intent": "What is the price range for products in the first column of this page?",
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "string_match"
+        ],
+        "reference_answers": {
+            "must_include": [
+                "47.69",
+                "488.83"
+            ]
+        },
+        "reference_url": "",
+        "program_html": [],
+        "string_note": "",
+        "reference_answer_raw_annotation": "$47.69 - $488.83"
+    }
+}

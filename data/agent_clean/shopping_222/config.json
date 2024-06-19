@@ -1,0 +1,31 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_222",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/catalogsearch/result/?q=Switch+USB+adapter",
+    "geolocation": null,
+    "intent": "Can you add the first item to my cart that looks like bricks?",
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "program_html"
+        ],
+        "reference_answers": null,
+        "reference_url": "",
+        "program_html": [
+            {
+                "url": "http://127.0.0.1:7770/checkout/cart",
+                "locator": "",
+                "required_contents": {
+                    "must_include": [
+                        "8Bitdo Wireless USB Adapter 1 for Switch, Switch OLED, Windows, Mac & Raspberry Pi, Compatible with Switch Pro, Switch Joy-con, PS5 PS4 Controller and More"
+                    ]
+                }
+            }
+        ]
+    },
+    "steps": 3
+}

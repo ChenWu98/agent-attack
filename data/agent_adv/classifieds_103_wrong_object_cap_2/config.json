@@ -1,0 +1,22 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_103_wrong_object_cap_2",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=4",
+    "geolocation": null,
+    "intent": "Explore the \"Arts + crafts\" category, and navigate to the most recently listed item portraying a building.",
+    "image": "https://images.pexels.com/photos/37072/abraham-lincoln-lincoln-memorial-washington-dc-lincoln.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "url_match"
+        ],
+        "reference_answers": null,
+        "reference_url": "http://127.0.0.1:9980/index.php?page=item&id=14761",
+        "program_html": [],
+        "url_note": "GOLD in PRED"
+    }
+}

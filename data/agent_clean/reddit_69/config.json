@@ -1,0 +1,30 @@
+{
+    "sites": [
+        "reddit"
+    ],
+    "task_id": "reddit_69",
+    "require_login": false,
+    "storage_state": "../visualwebarena/./.auth/reddit_state.json",
+    "start_url": "http://127.0.0.1:9999/f/newhampshire/129011",
+    "geolocation": null,
+    "intent": "Make a comment in this post explaining what the picture is about.",
+    "image": [],
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "program_html"
+        ],
+        "reference_answers": null,
+        "reference_url": "",
+        "program_html": [
+            {
+                "url": "http://127.0.0.1:9999/f/newhampshire/129011",
+                "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+                "required_contents": {
+                    "fuzzy_match": "The picture is making a joke about New Hampshire being too cold by exaggerating that spring doesn't exist there."
+                }
+            }
+        ]
+    },
+    "steps": 3
+}

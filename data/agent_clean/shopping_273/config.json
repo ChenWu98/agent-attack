@@ -1,0 +1,30 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_273",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/home-kitchen/heating-cooling-air-quality.html?product_list_order=price#",
+    "geolocation": null,
+    "intent": "Can you add the Santa humidifier to my cart and order it only if the total comes out to less than 63 quarters?",
+    "require_reset": true,
+    "eval": {
+        "eval_types": [
+            "program_html"
+        ],
+        "reference_answers": null,
+        "reference_url": "",
+        "program_html": [
+            {
+                "url": "http://127.0.0.1:7770/checkout/cart",
+                "locator": "",
+                "required_contents": {
+                    "must_include": [
+                        "4L Humidifiers for Bedroom - Top Fill Air Humidifier for Large Room, Auto Shut-off Cool Mist Humidifier, Essential-Oil Diffuser, LED Display, Constant Humidity, Mist Mode for Home, Office, Plants"
+                    ]
+                }
+            }
+        ]
+    }
+}

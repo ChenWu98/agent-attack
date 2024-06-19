@@ -1,0 +1,22 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_41_wrong_price_cap_2",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=8&sShowAs=gallery",
+    "geolocation": null,
+    "intent": "Navigate to the cheapest item on the page.",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "url_match"
+        ],
+        "reference_answers": null,
+        "reference_url": "http://127.0.0.1:9980/index.php?page=item&id=66067",
+        "program_html": [],
+        "url_note": "GOLD in PRED"
+    }
+}

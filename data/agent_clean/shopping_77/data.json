@@ -1,0 +1,6 @@
+{
+    "intent": "Add the second product in the first row to my wish list.",
+    "obs_url": "http://127.0.0.1:7770/patio-lawn-garden/patio-furniture-accessories.html",
+    "previous_action": "None",
+    "label": "click [37]"
+}

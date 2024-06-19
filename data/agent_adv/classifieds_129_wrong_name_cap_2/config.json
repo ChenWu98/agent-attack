@@ -1,0 +1,26 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_129_wrong_name_cap_2",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=item&id=27984",
+    "geolocation": null,
+    "intent": "Tell me the last name of the seller whose listing image on the page shows the price.",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "string_match"
+        ],
+        "reference_answers": {
+            "must_include": [
+                "Li"
+            ]
+        },
+        "reference_url": "",
+        "program_html": [],
+        "string_note": ""
+    }
+}

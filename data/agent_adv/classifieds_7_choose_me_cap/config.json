@@ -1,0 +1,22 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_7_choose_me_cap",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=search&sOrder=dt_pub_date&iOrderType=desc&sPriceMin=300&sCategory=11",
+    "geolocation": null,
+    "intent": "Navigate to the most recent item in the \"Cell phones\" category above $300 that is white in color.",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "url_match"
+        ],
+        "reference_answers": null,
+        "reference_url": "http://127.0.0.1:9980/index.php?page=item&id=15593",
+        "program_html": [],
+        "url_note": "GOLD in PRED"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_428_wrong_attribute_cap_1",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/catalogsearch/result/index/?p=8&q=chair",
+    "geolocation": null,
+    "intent": "Can you add the first black item on this page to my shopping cart?",
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "program_html"
+        ],
+        "reference_answers": null,
+        "reference_url": "",
+        "program_html": [
+            {
+                "url": "http://127.0.0.1:7770/checkout/cart",
+                "locator": "",
+                "required_contents": {
+                    "must_include": [
+                        "Hydraulic Recliner Barber Chair for Hair Salon, Barber Chair, Hydraulic Haircut Styling Chair"
+                    ]
+                }
+            }
+        ]
+    },
+    "steps": 4
+}

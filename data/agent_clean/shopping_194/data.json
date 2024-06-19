@@ -1,0 +1,6 @@
+{
+    "intent": "How much is the product with the most plants in the picture on this page?",
+    "obs_url": "http://127.0.0.1:7770/patio-lawn-garden/gardening-lawn-care/pots-planters-container-accessories.html",
+    "previous_action": "None",
+    "label": "37.99"
+}

@@ -1,0 +1,6 @@
+{
+    "intent": "Explore the \"Arts + crafts\" category, and navigate to the most recently listed item portraying a woman.",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=4",
+    "previous_action": "click [34] where [34]",
+    "label": "click [24]"
+}

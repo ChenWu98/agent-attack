@@ -1,0 +1,6 @@
+{
+    "intent": "What is the cheapest price that I can pay for 31 of these wooden pallets?",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=item&id=27156",
+    "previous_action": "None",
+    "label": "208"
+}

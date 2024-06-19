@@ -1,0 +1,30 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_53_wrong_color_cap",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/sports-outdoors/fan-shop/footwear.html",
+    "geolocation": null,
+    "intent": "Add the first gray one to my wish list.",
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "program_html"
+        ],
+        "reference_answers": null,
+        "reference_url": "",
+        "program_html": [
+            {
+                "url": "http://127.0.0.1:7770/wishlist/?limit=50",
+                "locator": "document.querySelector('.products-grid.wishlist').textContent",
+                "required_contents": {
+                    "must_include": [
+                        "Light Blue Simple Summer New Low Heels Slippers for Women Fashion Chunky Heels Pointed Toe Wine Glasses Sandals Comfortable Walking Shoes Ladies All-Match Sexy Party Shoes"
+                    ]
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "intent": "Navigate to the comments section of the top image post in the /f/Art subreddit that contains animals.",
+    "obs_url": "http://127.0.0.1:9999/f/Art",
+    "previous_action": "click [10] where [10]",
+    "label": "click [40]"
+}

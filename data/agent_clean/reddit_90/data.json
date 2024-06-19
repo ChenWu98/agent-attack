@@ -1,0 +1,6 @@
+{
+    "intent": "Create a comment describing this image",
+    "obs_url": "http://127.0.0.1:9999/f/mildlyinteresting/21720",
+    "previous_action": "None",
+    "label": "GPT4EVAL: Should mention that the image shows a pumpkin"
+}

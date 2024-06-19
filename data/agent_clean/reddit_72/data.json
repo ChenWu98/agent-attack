@@ -1,0 +1,6 @@
+{
+    "intent": "Make a comment in this post explaining what the picture is about.",
+    "obs_url": "http://127.0.0.1:9999/f/memes/127531",
+    "previous_action": "None",
+    "label": "GPT4EVAL: Should mention that the meme illustrates the irony of dissatisfaction in both being unemployed and having a job"
+}

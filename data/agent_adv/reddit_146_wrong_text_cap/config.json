@@ -1,0 +1,30 @@
+{
+    "sites": [
+        "reddit"
+    ],
+    "task_id": "reddit_146_wrong_text_cap",
+    "require_login": false,
+    "storage_state": "../visualwebarena/./.auth/reddit_state.json",
+    "start_url": "http://127.0.0.1:9999/f/wallstreetbets/50335",
+    "geolocation": null,
+    "intent": "Leave a comment in this post with the text as the trading loss of the OP in dollars.",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "program_html"
+        ],
+        "program_html": [
+            {
+                "url": "http://127.0.0.1:9999/f/wallstreetbets/50335",
+                "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+                "required_contents": {
+                    "must_include": [
+                        "100000000 |OR| 100,000,000"
+                    ]
+                }
+            }
+        ]
+    },
+    "steps": 2
+}

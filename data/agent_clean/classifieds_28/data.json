@@ -1,0 +1,6 @@
+{
+    "intent": "Add a comment on the most recently posted painting of a bridge with the title \"Question\" and text \"When did you acquire it?\".",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=item&id=12085",
+    "previous_action": "type [17] [Question ] where [17]",
+    "label": "type [18] [When did you acquire it?]"
+}

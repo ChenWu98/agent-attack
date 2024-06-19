@@ -1,0 +1,6 @@
+{
+    "intent": "What is the email of the seller of the item with the coffee mug in the picture on this page?",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=item&id=15810",
+    "previous_action": "click [40] where [40]",
+    "label": "layla_garcia352@example.com"
+}

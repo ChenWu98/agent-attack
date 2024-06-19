@@ -1,0 +1,26 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_193",
+    "require_login": false,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/cell-phones-accessories/accessories.html?p=10",
+    "geolocation": null,
+    "intent": "How much is the VR headset with a dinosaur in the picture on this page?",
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "string_match"
+        ],
+        "reference_answers": {
+            "must_include": [
+                "$63.98"
+            ]
+        },
+        "reference_url": "",
+        "program_html": [],
+        "string_note": "",
+        "reference_answer_raw_annotation": "$63.98"
+    }
+}

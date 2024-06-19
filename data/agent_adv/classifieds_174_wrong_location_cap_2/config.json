@@ -1,0 +1,26 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_174_wrong_location_cap_2",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=17&sOrder=i_price&iOrderType=desc&sShowAs=gallery",
+    "geolocation": null,
+    "intent": "For the item on this page which includes a Black Friday logo in the image, tell me the most specific location given of the posting.",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "string_match"
+        ],
+        "reference_answers": {
+            "must_include": [
+                "New York"
+            ]
+        },
+        "reference_url": "",
+        "program_html": [],
+        "string_note": ""
+    }
+}

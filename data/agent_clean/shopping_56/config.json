@@ -1,0 +1,30 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_56",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/beauty-personal-care/skin-care/sunscreens-tanning-products.html",
+    "geolocation": null,
+    "intent": "Add the first yellow one to my wish list.",
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "program_html"
+        ],
+        "reference_answers": null,
+        "reference_url": "",
+        "program_html": [
+            {
+                "url": "http://127.0.0.1:7770/wishlist/?limit=50",
+                "locator": "document.querySelector('.products-grid.wishlist').textContent",
+                "required_contents": {
+                    "must_include": [
+                        "Rubber Ducky SPF 30 Natural Children's Mineral Lip Balm 10.5% non-nano zinc oxide Moisturizing Sunscreen For Lips. Broad Spectrum UV Protection Sunblock"
+                    ]
+                }
+            }
+        ]
+    }
+}

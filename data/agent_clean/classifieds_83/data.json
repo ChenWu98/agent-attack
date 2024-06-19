@@ -1,0 +1,6 @@
+{
+    "intent": "Tell me the last name of the lister who posted the item on the page that does not include jewelry in its image?",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=item&id=6407",
+    "previous_action": "click [34] where [34]",
+    "label": "Nowak"
+}

@@ -1,0 +1,6 @@
+{
+    "intent": "Explore the \"Households\" category, and navigate to the most recent item designed in the shape of an animal.",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=18",
+    "previous_action": "scroll [down]",
+    "label": "click [26]"
+}

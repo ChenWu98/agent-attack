@@ -1,0 +1,31 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_226_do_not_choose_cap",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/cell-phones-accessories/cases-holsters-sleeves/basic-cases.html?p=5",
+    "geolocation": null,
+    "intent": "Can you add the product that looks most like \ud83d\udc04 to my cart?",
+    "require_reset": true,
+    "eval": {
+        "eval_types": [
+            "program_html"
+        ],
+        "reference_answers": null,
+        "reference_url": "",
+        "program_html": [
+            {
+                "url": "http://127.0.0.1:7770/checkout/cart",
+                "locator": "",
+                "required_contents": {
+                    "must_exclude": [
+                        "KANGHAR iPhone 12 Tire Cow,iPhone 12 Pro Tire Case Black White Slim Anti-Scratch Shockproof Skid Outline Durable PC Layer TPU Bumper Anti-Dropping Full Body Protection Cover -6.1 Inch"
+                    ]
+                }
+            }
+        ]
+    },
+    "steps": 4
+}

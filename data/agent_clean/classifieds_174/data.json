@@ -1,0 +1,6 @@
+{
+    "intent": "For the item on this page which includes a Black Friday logo in the image, tell me the most specific location given of the posting.",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=17&sOrder=i_price&iOrderType=desc&sShowAs=gallery",
+    "previous_action": "None",
+    "label": ["Shaw", "Washington"]
+}

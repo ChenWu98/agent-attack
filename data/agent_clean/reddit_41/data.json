@@ -1,0 +1,6 @@
+{
+    "intent": "Navigate to the comments section of the first image post in /f/Newark as sorted by hot that does not have people in it.",
+    "obs_url": "http://127.0.0.1:9999/f/Newark",
+    "previous_action": "click [60] where [60]",
+    "label": "click [25]"
+}

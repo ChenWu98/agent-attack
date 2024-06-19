@@ -1,0 +1,6 @@
+{
+    "intent": "Buy the least expensive red blanket (in any size) from \"Blankets & Throws\" category.",
+    "obs_url": "http://127.0.0.1:7770/catalogsearch/result/?q=red+blanket",
+    "previous_action": "scroll [up]",
+    "label": "click [34]"
+}

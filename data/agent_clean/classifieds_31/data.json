@@ -1,0 +1,6 @@
+{
+    "intent": "Navigate to the latest listing of a white Google Pixel phone and post a comment offering $10 less than their asking price.",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=item&id=47273",
+    "previous_action": "type [17] [Offer ] where [17]",
+    "label": "250"
+}

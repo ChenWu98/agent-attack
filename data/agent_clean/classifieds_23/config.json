@@ -1,0 +1,26 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_23",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=item&id=33496",
+    "geolocation": null,
+    "intent": "How many miles does the car have?",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "string_match"
+        ],
+        "reference_answers": {
+            "must_include": [
+                "205K |OR| 205,000 |OR| 205000"
+            ]
+        },
+        "reference_url": "",
+        "program_html": [],
+        "string_note": ""
+    }
+}

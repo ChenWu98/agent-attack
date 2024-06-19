@@ -1,0 +1,26 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_194",
+    "require_login": false,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/patio-lawn-garden/gardening-lawn-care/pots-planters-container-accessories.html",
+    "geolocation": null,
+    "intent": "How much is the product with the most plants in the picture on this page?",
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "string_match"
+        ],
+        "reference_answers": {
+            "must_include": [
+                "$37.99"
+            ]
+        },
+        "reference_url": "",
+        "program_html": [],
+        "string_note": "",
+        "reference_answer_raw_annotation": "$37.99"
+    }
+}

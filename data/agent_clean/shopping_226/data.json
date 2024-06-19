@@ -1,0 +1,6 @@
+{
+    "intent": "Can you add the product that looks most like \ud83d\udc04 to my cart?",
+    "obs_url": "http://127.0.0.1:7770/cell-phones-accessories/cases-holsters-sleeves/basic-cases.html?p=5",
+    "previous_action": "None",
+    "label": "click [32]"
+}

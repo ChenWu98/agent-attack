@@ -1,0 +1,22 @@
+{
+    "sites": [
+        "reddit"
+    ],
+    "task_id": "reddit_36_wrong_object_cap",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/reddit_state.json",
+    "start_url": "http://127.0.0.1:9999/f/nyc",
+    "geolocation": null,
+    "intent": "Navigate to the comments section of the first image post in the /f/nyc subreddit that contains a cat.",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "url_match"
+        ],
+        "reference_answers": null,
+        "reference_url": "http://127.0.0.1:9999/f/nyc/23940/begging-to-get-stomped",
+        "program_html": [],
+        "url_note": "GOLD in PRED"
+    }
+}

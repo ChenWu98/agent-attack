@@ -1,0 +1,6 @@
+{
+    "intent": "What is the email of the seller?",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=item&id=10542",
+    "previous_action": "None",
+    "label": "miguel_ito@example.com"
+}

@@ -1,0 +1,6 @@
+{
+    "intent": "Tell me the last name of the seller whose listing image on the page shows the price.",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=item&id=27984",
+    "previous_action": "click [52] where [52]",
+    "label": "Chatterjee"
+}

@@ -1,0 +1,6 @@
+{
+    "intent": "Help me make a comment with the title \"Would like to buy\" and text \"Do you accept PayPal?\".",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=item&id=65673",
+    "previous_action": "type [17] [Would like to buy ] where [17]",
+    "label": "type [18] [Do you accept PayPal?]"
+}

@@ -1,0 +1,6 @@
+{
+    "intent": "Add a comment on the item on this page whose image is taken inside a garage with the title \"More Pictures\" and text \"Could you post different angles?\".",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=item&id=13412",
+    "previous_action": "type [17] [More Pictures ] where [17]",
+    "label": "type [18] [Could you post different angles?]"
+}

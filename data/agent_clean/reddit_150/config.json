@@ -1,0 +1,30 @@
+{
+    "sites": [
+        "reddit"
+    ],
+    "task_id": "reddit_150",
+    "require_login": false,
+    "storage_state": "../visualwebarena/./.auth/reddit_state.json",
+    "start_url": "http://127.0.0.1:9999/f/OldSchoolCool/35826",
+    "geolocation": null,
+    "intent": "Leave a comment in this post with the text as the number of adults in the image.",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "program_html"
+        ],
+        "program_html": [
+            {
+                "url": "http://127.0.0.1:9999/f/OldSchoolCool/35826",
+                "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
+                "required_contents": {
+                    "must_include": [
+                        "2 |OR| two"
+                    ]
+                }
+            }
+        ]
+    },
+    "steps": 2
+}

@@ -1,0 +1,6 @@
+{
+    "intent": "Navigate to the comments section of the top image post in the /f/washingtondc subreddit.",
+    "obs_url": "http://127.0.0.1:9999/f/washingtondc",
+    "previous_action": "click [97] where [97]",
+    "label": "click [10]"
+}

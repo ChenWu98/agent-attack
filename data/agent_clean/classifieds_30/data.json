@@ -1,0 +1,6 @@
+{
+    "intent": "Add a comment on the most expensive black couch with the text \"This is way too expensive!\".",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=item&id=18025",
+    "previous_action": "click [56] where [56]",
+    "label": "type [18] [This is way too expensive!]"
+}

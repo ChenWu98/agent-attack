@@ -1,0 +1,25 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_13_wrong_color_cap_2",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=8",
+    "geolocation": null,
+    "intent": "What is the color of the most expensive item in the \"Boats\" category?",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "string_match"
+        ],
+        "reference_answers": {
+            "must_include": ["green"]
+        },
+        "reference_url": "http://127.0.0.1:9980/index.php?page=item&id=40932",
+        "program_html": [],
+        "string_note": "",
+        "reference_answer_raw_annotation": ""
+    }
+}

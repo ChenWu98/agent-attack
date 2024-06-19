@@ -1,0 +1,21 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_29",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/catalogsearch/result/?q=winter+coat",
+    "geolocation": null,
+    "intent": "Show me the first red coat in the search results for \"winter coat\".",
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "url_match"
+        ],
+        "reference_answers": null,
+        "reference_url": "http://127.0.0.1:7770/smooto-winter-coats-women-s-warm-hooded-thick-padded-outerwear-jackets-overcoat.html",
+        "program_html": [],
+        "url_note": "EXACT"
+    }
+}

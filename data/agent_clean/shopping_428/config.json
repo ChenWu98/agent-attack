@@ -1,0 +1,31 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_428",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/catalogsearch/result/index/?p=8&q=chair",
+    "geolocation": null,
+    "intent": "Can you add the first item on this page with wheels to my shopping cart?",
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "program_html"
+        ],
+        "reference_answers": null,
+        "reference_url": "",
+        "program_html": [
+            {
+                "url": "http://127.0.0.1:7770/checkout/cart",
+                "locator": "",
+                "required_contents": {
+                    "must_include": [
+                        "Modern Upholstered Tufted Velvet Office Chair Adjustable Vanity Chair Makeup Chair Cute Desk Chair Mid Back Computer Chair Accent Chairs for Bedroom, Blue"
+                    ]
+                }
+            }
+        ]
+    },
+    "steps": 4
+}

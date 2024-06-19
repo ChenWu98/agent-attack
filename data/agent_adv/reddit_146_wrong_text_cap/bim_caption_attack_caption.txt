@@ -1,0 +1,1 @@
+A graph showing the investment returns of a company (The T-shirt Company) over the past 3 years.

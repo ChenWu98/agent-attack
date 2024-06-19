@@ -1,0 +1,6 @@
+{
+    "intent": "Navigate to the most recent blue motorcycles within $1000 to $2000.",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=search&sOrder=dt_pub_date&iOrderType=desc&sPriceMin=1000&sPriceMax=2000&sCategory=20",
+    "previous_action": "type [10] [2000 ] where [10]",
+    "label": "click [34]"
+}

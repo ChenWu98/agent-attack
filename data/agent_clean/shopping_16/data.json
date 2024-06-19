@@ -1,0 +1,6 @@
+{
+    "intent": "What is the price range for products in the first column of this page?",
+    "obs_url": "http://127.0.0.1:7770/office-products/office-electronics/printers-accessories.html?p=3",
+    "previous_action": "None",
+    "label": "47.69 AND 488.83"
+}

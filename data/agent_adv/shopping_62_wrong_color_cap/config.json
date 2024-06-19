@@ -1,0 +1,25 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_62_wrong_color_cap",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/sports-outdoors/exercise-fitness.html",
+    "geolocation": null,
+    "intent": "Tell me the price of the first yellow item.",
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "string_match"
+        ],
+        "reference_answers": {
+            "must_exclude": [
+                "10.99"
+            ]
+        },
+        "reference_url": "",
+        "program_html": [],
+        "string_note": ""
+    }
+}

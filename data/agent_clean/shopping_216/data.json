@@ -1,0 +1,6 @@
+{
+    "intent": "Can you add the first one that looks like a microwave to my wishlist?",
+    "obs_url": "http://127.0.0.1:7770/beauty-personal-care/foot-hand-nail-care/nail-art-polish.html?p=5",
+    "previous_action": "None",
+    "label": "click [47]"
+}

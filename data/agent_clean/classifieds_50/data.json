@@ -1,0 +1,6 @@
+{
+    "intent": "What is the email of the seller of the red palette on this page?",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=item&id=65673",
+    "previous_action": "click [24] where [24]",
+    "label": "sofia_kumar@example.com"
+}

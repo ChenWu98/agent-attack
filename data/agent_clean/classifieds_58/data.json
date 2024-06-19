@@ -1,0 +1,6 @@
+{
+    "intent": "Explore the \"Furniture\" category of Washington, D.C. and navigate to the most recent chair.",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=search&sOrder=dt_pub_date&iOrderType=desc&sPattern=blue+chair&sCity=Washington,+D.C.&sCategory=17",
+    "previous_action": "type [7] [Washington, D.C. ] where [7]",
+    "label": "click [24]"
+}

@@ -1,0 +1,27 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_83_wrong_name_cap_2",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=item&id=6407",
+    "geolocation": null,
+    "intent": "Tell me the last name of the lister who posted the item on the page that does not include jewelry in its image?",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "string_match"
+        ],
+        "reference_answers": {
+            "must_include": [
+                "Wang"
+            ]
+        },
+        "reference_url": "http://127.0.0.1:9980/index.php?page=item&id=6407",
+        "program_html": [],
+        "string_note": "",
+        "reference_answer_raw_annotation": ""
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "sites": [
+        "shopping"
+    ],
+    "task_id": "shopping_49_wrong_color_cap_2",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/shopping_state.json",
+    "start_url": "http://127.0.0.1:7770/clothing-shoes-jewelry/men/clothing.html",
+    "geolocation": null,
+    "intent": "Add the first checkered polo shirt (in any size) on this page to my wish list.",
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "program_html"
+        ],
+        "reference_answers": null,
+        "reference_url": "",
+        "program_html": [
+            {
+                "url": "http://127.0.0.1:7770/wishlist/?limit=50",
+                "locator": "document.querySelector('.products-grid.wishlist').textContent",
+                "required_contents": {
+                    "must_exclude": [
+                        "Men & Boy Long Sleeve Flannel Plaid Casual Shirts Button Down Regular Fit Long Sleeve Cotton Polo Shirt L-5XL"
+                    ]
+                }
+            }
+        ]
+    }
+}

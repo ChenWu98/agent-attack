@@ -1,0 +1,6 @@
+{
+    "intent": "Leave a comment in this post with the text as the number of adults in the image.",
+    "obs_url": "http://127.0.0.1:9999/f/OldSchoolCool/35826",
+    "previous_action": "None",
+    "label": ["2", "Two", "two"]
+}

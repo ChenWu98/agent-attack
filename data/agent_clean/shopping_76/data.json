@@ -1,0 +1,6 @@
+{
+    "intent": "Add the last product in the last row to my wish list.",
+    "obs_url": "http://127.0.0.1:7770/clothing-shoes-jewelry/novelty-more.html",
+    "previous_action": "None",
+    "label": "click [88]"
+}

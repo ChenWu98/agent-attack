@@ -1,0 +1,6 @@
+{
+    "intent": "Add the first one on this page with 'garden' written on it to my wish list.",
+    "obs_url": "http://127.0.0.1:7770/home-kitchen/home-decor-products/artificial-plants-flowers.html",
+    "previous_action": "None",
+    "label": "click [37]"
+}

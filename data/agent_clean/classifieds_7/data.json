@@ -1,0 +1,6 @@
+{
+    "intent": "Navigate to the most recent item in the \"Cell phones\" category above $300 that is white in color.",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=search&sOrder=dt_pub_date&iOrderType=desc&sPriceMin=300&sCategory=11",
+    "previous_action": "type [9] [300 ] where [9]",
+    "label": "click [28]"
+}

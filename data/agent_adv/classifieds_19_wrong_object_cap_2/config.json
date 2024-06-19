@@ -1,0 +1,22 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_19_wrong_object_cap_2",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=search&sOrder=dt_pub_date&iOrderType=desc&sPriceMin=80&sPriceMax=100&sCategory=4&iPage=2",
+    "geolocation": null,
+    "intent": "Show me the most recently posted painting in the \"Arts + crafts\" category between $80-100 that shows the building",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "url_match"
+        ],
+        "reference_answers": null,
+        "reference_url": "http://127.0.0.1:9980/index.php?page=item&id=38497",
+        "program_html": [],
+        "url_note": "GOLD in PRED"
+    }
+}

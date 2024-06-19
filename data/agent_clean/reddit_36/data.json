@@ -1,0 +1,6 @@
+{
+    "intent": "Navigate to the comments section of the first image post in the /f/nyc subreddit that contains a cat.",
+    "obs_url": "http://127.0.0.1:9999/f/nyc",
+    "previous_action": "click [67] where [67]",
+    "label": "click [25]"
+}

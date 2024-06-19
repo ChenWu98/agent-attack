@@ -1,0 +1,27 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_43_wrong_price_cap",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=10&sShowAs=gallery&iPage=4",
+    "geolocation": null,
+    "intent": "What is the price range of all the red vehicles on this page?",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "string_match"
+        ],
+        "reference_answers": {
+            "must_include": [
+                "500",
+                "9999"
+            ]
+        },
+        "reference_url": "",
+        "program_html": [],
+        "string_note": ""
+    }
+}

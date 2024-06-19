@@ -1,0 +1,6 @@
+{
+    "intent": "Add the green checkered polo shirt (in any size) on this page to my wish list.",
+    "obs_url": "http://127.0.0.1:7770/clothing-shoes-jewelry/men/clothing.html",
+    "previous_action": "None",
+    "label": "click [78]"
+}

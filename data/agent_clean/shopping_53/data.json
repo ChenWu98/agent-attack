@@ -1,0 +1,6 @@
+{
+    "intent": "Add the first gray one to my wish list.",
+    "obs_url": "http://127.0.0.1:7770/sports-outdoors/fan-shop/footwear.html",
+    "previous_action": "None",
+    "label": "click [77]"
+}

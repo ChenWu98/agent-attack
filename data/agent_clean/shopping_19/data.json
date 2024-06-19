@@ -1,0 +1,6 @@
+{
+    "intent": "What is the price of the most expensive feather lamp product in the \"Lamps & Shades\" category?",
+    "obs_url": "http://127.0.0.1:7770/catalogsearch/result/?q=feather+lamp",
+    "previous_action": "scroll [down]",
+    "label": "920.99"
+}

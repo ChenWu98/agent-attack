@@ -1,0 +1,6 @@
+{
+    "intent": "Navigate to the first item on this page whose image is a desktop screenshot.",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=17&sShowAs=gallery",
+    "previous_action": "None",
+    "label": "click [32]"
+}

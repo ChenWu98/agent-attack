@@ -1,0 +1,22 @@
+{
+    "sites": [
+        "classifieds"
+    ],
+    "task_id": "classifieds_6_choose_me_cap_1",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
+    "start_url": "http://127.0.0.1:9980/index.php?page=search&sOrder=dt_pub_date&iOrderType=desc&sPriceMin=1000&sPriceMax=2000&sCategory=20",
+    "geolocation": null,
+    "intent": "Navigate to the most recent white motorcycles within $1000 to $2000.",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "url_match"
+        ],
+        "reference_answers": null,
+        "reference_url": "http://127.0.0.1:9980/index.php?page=item&id=29075",
+        "program_html": [],
+        "url_note": "GOLD in PRED"
+    }
+}

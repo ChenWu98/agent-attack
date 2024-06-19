@@ -1,0 +1,6 @@
+{
+    "intent": "Navigate to the first snowblower that is not red in color.",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=search&sPattern=snowblower",
+    "previous_action": "type [5] [snowblower ] where [5]",
+    "label": "click [44]"
+}

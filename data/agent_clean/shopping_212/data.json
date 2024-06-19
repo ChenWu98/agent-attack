@@ -1,0 +1,6 @@
+{
+    "intent": "Can you add the red flower seeds with around 4 stars to my cart?",
+    "obs_url": "http://127.0.0.1:7770/catalogsearch/result/?q=red+flower+seeds",
+    "previous_action": "type [7] [red flower seeds ] where [7]",
+    "label": "click [30]"
+}

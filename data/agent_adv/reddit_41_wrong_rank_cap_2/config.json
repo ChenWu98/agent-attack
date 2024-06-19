@@ -1,0 +1,22 @@
+{
+    "sites": [
+        "reddit"
+    ],
+    "task_id": "reddit_41_wrong_rank_cap_2",
+    "require_login": true,
+    "storage_state": "../visualwebarena/./.auth/reddit_state.json",
+    "start_url": "http://127.0.0.1:9999/f/Newark",
+    "geolocation": null,
+    "intent": "Navigate to the comments section of the first image post in /f/Newark as sorted by hot that is black and white.",
+    "image": null,
+    "require_reset": false,
+    "eval": {
+        "eval_types": [
+            "url_match"
+        ],
+        "reference_answers": null,
+        "reference_url": "http://127.0.0.1:9999/f/Newark/14870/i-heard-you-guys-like-progress-pics",
+        "program_html": [],
+        "url_note": "GOLD in PRED"
+    }
+}

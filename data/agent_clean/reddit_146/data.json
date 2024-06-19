@@ -1,0 +1,6 @@
+{
+    "intent": "Leave a comment in this post with the text as the trading loss of the OP in dollars.",
+    "obs_url": "http://127.0.0.1:9999/f/wallstreetbets/50335",
+    "previous_action": "None",
+    "label": "209,783.15"
+}

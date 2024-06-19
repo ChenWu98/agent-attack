@@ -1,0 +1,6 @@
+{
+    "intent": "Navigate to the first item on the page that references Pittsburgh.",
+    "obs_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=9&sOrder=dt_pub_date&iOrderType=desc&iPage=4",
+    "previous_action": "None",
+    "label": "click [32]"
+}
