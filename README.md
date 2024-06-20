@@ -36,7 +36,7 @@ The attacker can manipulate the agent through (C) <i>illusioning</i>, which make
 
 ## Installation
 
-Our code requires two repositories including this one. The file structure should look like this:
+Our code requires two repositories, including this one. The file structure should look like this:
 
 ```plaintext
 .
@@ -46,7 +46,7 @@ Our code requires two repositories including this one. The file structure should
 
 ### Install VisualWebArena
 
-> Can skip this step if you only want to run the lightweight step-wise evaluation (e.g., for early development).
+> Can skip this step if you only want to run the lightweight [step-wise evaluation](#stepwise-evaluation) (e.g., for early development) or the [attacks](#run-attacks).
 
 VisualWebArena is required if you want to run the episode-wise evaluation that reproduces the results in our paper.
 It requires at least 200GB of disk space and docker to run.
