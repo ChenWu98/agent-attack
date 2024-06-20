@@ -39,5 +39,5 @@ setup(
         "anthropic",
     ],
     python_requires=">=3.10",
-    license="Apache 2.0 license",
+    license="MIT license",
 )
