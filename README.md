@@ -1,4 +1,4 @@
-# Adversarial Attacks on Multimodal Agents
+# Dissecting Adversarial Robustness of Multimodal LM Agents
 
 Official code and data of our paper:<br>
 **Dissecting Adversarial Robustness of Multimodal LM Agents** <br>
