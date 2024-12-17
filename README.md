@@ -1,10 +1,11 @@
 # Adversarial Attacks on Multimodal Agents
 
 Official code and data of our paper:<br>
-**Adversarial Attacks on Multimodal Agents** <br>
-Chen Henry Wu, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, Aditi Raghunathan<br>
+**Dissecting Adversarial Robustness of Multimodal LM Agents** <br>
+Chen Henry Wu, Rishi Shah, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, Aditi Raghunathan<br>
 Carnegie Mellon University <br>
 _Preprint, Jun 2024_ <br>
+_Oral presentation at NeurIPS 2024 Open-World Agents Workshop_ <br>
 
 [**[Paper link]**](https://arxiv.org/abs/2406.12814) | [**[Website]**](https://chenwu.io/attack-agent/) | [**[Data]**](./data/)
 
