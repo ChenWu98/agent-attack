@@ -1,0 +1,1 @@
+This product is the third one on the top row of this page, regardless of the products' positions relative to each other.

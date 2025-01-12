@@ -1,0 +1,1 @@
+This product is the second one on the first row of this page, regardless of the positions of other products.
