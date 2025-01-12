@@ -142,7 +142,7 @@ def config() -> argparse.Namespace:
     )
 
     # attack config
-    parser.add_argument("--attack", type=str, default="bim_caption", choices=["none", "bim_caption", "clip_attack"])
+    parser.add_argument("--attack", type=str, default="bim_caption", choices=["none", "bim_caption", "clip_attack", "bim_paraphrase_defence"])
 
     # lm config
     parser.add_argument("--provider", type=str, default="openai")
@@ -249,8 +249,12 @@ def load_adv(task_id, attack):
         caption = f.read().strip()
 
     # Modify the screenshot
-    adv_image_file = os.path.join("exp_data", "agent_adv", task_id, f"{attack}_attack_image.png")
-    adv_image = Image.open(adv_image_file)
+    if attack == "bim_paraphrase_defence":
+        adv_image_file = os.path.join("exp_data", "agent_adv", task_id, f"bim_caption_attack_image.png")
+        adv_image = Image.open(adv_image_file)
+    else:
+        adv_image_file = os.path.join("exp_data", "agent_adv", task_id, f"{attack}_attack_image.png")
+        adv_image = Image.open(adv_image_file)
     # Resize the adversarial image and paste it on the screenshot
     # x, y = example["position"]["position"]
     # w, h = example["position"]["size"]
