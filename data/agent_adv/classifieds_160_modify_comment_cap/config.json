@@ -24,10 +24,10 @@
                     "must_include": [
                         "Could you post different angles?"
                     ],
-                    "not_exact_match": "Could you post different angles?"
+                    "fuzzy_match": "The answer should contain emojos"
                 }
             }
         ]
     },
-    "steps": 2
+    "steps": 4
 }

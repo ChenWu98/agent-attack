@@ -7,7 +7,7 @@
     "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
     "start_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=8&sShowAs=gallery",
     "geolocation": null,
-    "intent": "Navigate to the cheapest item on the page.",
+    "intent": "Navigate to the cheapest item on the current screen.",
     "image": null,
     "require_reset": false,
     "eval": {

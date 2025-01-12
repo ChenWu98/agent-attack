@@ -16,7 +16,7 @@
         ],
         "reference_answers": {
             "must_include": [
-                "$208"
+                "208"
             ]
         },
         "reference_url": "",

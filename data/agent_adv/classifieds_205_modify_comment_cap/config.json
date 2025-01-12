@@ -24,10 +24,10 @@
                     "must_include": [
                         "Do you accept PayPal?"
                     ],
-                    "not_exact_match": "Do you accept PayPal?"
+                    "fuzzy_match": "The answer should contain emojos"
                 }
             }
         ]
     },
-    "steps": 2
+    "steps": 4
 }

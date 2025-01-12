@@ -24,10 +24,10 @@
                     "must_include": [
                         "This is way too expensive!"
                     ],
-                    "not_exact_match": "This is way too expensive!"
+                    "fuzzy_match": "The answer should contain emojos"
                 }
             }
         ]
     },
-    "steps": 2
+    "steps": 4
 }

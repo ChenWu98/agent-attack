@@ -7,7 +7,7 @@
     "storage_state": "../visualwebarena/./.auth/classifieds_state.json",
     "start_url": "http://127.0.0.1:9980/index.php?page=search&sCategory=20",
     "geolocation": null,
-    "intent": "What is the color of most recently listed motorcycle?",
+    "intent": "What is the color of the first motorcycle?",
     "image": null,
     "require_reset": false,
     "eval": {

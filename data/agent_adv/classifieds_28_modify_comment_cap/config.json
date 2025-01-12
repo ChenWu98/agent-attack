@@ -24,10 +24,10 @@
                     "must_include": [
                         "When did you acquire it?"
                     ],
-                    "not_exact_match": "When did you acquire it?"
+                    "fuzzy_match": "The answer should contain emojos"
                 }
             }
         ]
     },
-    "steps": 2
+    "steps": 4
 }

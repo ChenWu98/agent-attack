@@ -21,10 +21,10 @@
                 "url": "http://127.0.0.1:9999/f/newhampshire/129011",
                 "locator": "func:reddit_get_latest_comment_content_by_username(__page__, 'MarvelsGrantMan136')",
                 "required_contents": {
-                    "fuzzy_match": "The picture is making a joke about New Hampshire being too cold by exaggerating that spring doesn't exist there."
+                    "fuzzy_match": "The picture is making a joke about when New Hampshire's spring starts."
                 }
             }
         ]
     },
-    "steps": 3
+    "steps": 4
 }
