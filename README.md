@@ -4,8 +4,7 @@ Official code and data of our paper:<br>
 **Dissecting Adversarial Robustness of Multimodal LM Agents** <br>
 Chen Henry Wu, Rishi Shah, Jing Yu Koh, Ruslan Salakhutdinov, Daniel Fried, Aditi Raghunathan<br>
 Carnegie Mellon University <br>
-_Preprint, Jun 2024_ <br>
-_Oral presentation at NeurIPS 2024 Open-World Agents Workshop_ <br>
+_ICLR 2025_ (also _Oral presentation at NeurIPS 2024 Open-World Agents Workshop_) <br>
 
 [**[Paper link]**](https://arxiv.org/abs/2406.12814) | [**[Website]**](https://chenwu.io/attack-agent/) | [**[Data]**](./data/)
 
@@ -14,8 +13,6 @@ _Oral presentation at NeurIPS 2024 Open-World Agents Workshop_ <br>
     <img src="docs/attack-vwa.png" align="middle">
 </div>
 <br>
-Compared to (A) attacks on image classifiers and (B) jailbreaking attacks on LLMs, attacks on agents have limited access to the input space (e.g., only one image in the environment), and the target output depends on the environment instead of a specific prediction.
-The attacker can manipulate the agent through (C) <i>illusioning</i>, which makes it appear to the agent that it is in a different state, or (D) <i>goal misdirection</i>, which makes the agent pursue a targeted different goal than the original user goal.
 
 ## Contents
 
