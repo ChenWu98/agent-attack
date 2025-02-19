@@ -16,7 +16,7 @@ _ICLR 2025_ (also _Oral presentation at NeurIPS 2024 Open-World Agents Workshop_
 
 ## Contents
 
-- [Adversarial Attacks on Multimodal Agents](#adversarial-attacks-on-multimodal-agents)
+- [Dissecting Adversarial Robustness of Multimodal LM Agents](#adversarial-attacks-on-multimodal-agents)
   - [Contents](#contents)
   - [Installation](#installation)
     - [Install VisualWebArena](#install-visualwebarena)
