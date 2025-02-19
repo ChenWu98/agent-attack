@@ -344,8 +344,8 @@ If you find this code useful, please consider citing our paper:
 
 ```bibtex
 @article{wu2024agentattack,
-  title={Adversarial Attacks on Multimodal Agents},
-  author={Wu, Chen Henry and Koh, Jing Yu and Salakhutdinov, Ruslan and Fried, Daniel and Raghunathan, Aditi},
+  title={Dissecting Adversarial Robustness of Multimodal LM Agents},
+  author={Wu, Chen Henry and Shah, Rishi and Koh, Jing Yu and Salakhutdinov, Ruslan and Fried, Daniel and Raghunathan, Aditi},
   journal={arXiv preprint arXiv:2406.12814},
   year={2024}
 }
